@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            background-color: #E8ECED;
+        }
+
+        #box {
+            background-image: url("images/christus.webp");
+            width: 75%;
+            border: 5px solid black;
+            border-radius: 30px;
+            text-align: center;
+        }
+
+        h1, h4 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #first {
+            /*display: flex;*/
+            /*flex-direction: row;*/
+            margin: 5px;
+        }
+
+        .president {
+            width: 115px;
+            height: 115px;
+            object-fit: cover;
+        }
+
+        .counselor {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        #apostles {
+            display: grid;
+            place-items: center;
+            margin: 2px 180px 10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        #apostles img {
+            width: 55px;
+            height: 55px;
+            border: 5px solid white;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .circle img {
+            border: 6px solid white;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h1>First Presidency</h1>
+        <div id="first" class="circle">
+            <img class="counselor" src="images/eyring.webp" alt="A picture of President Eyring">
+            <img class="president" src="images/oaks.webp" alt="A picture of President Oaks">
+            <img class="counselor" src="images/christofferson.webp" alt="A picture of President Christofferson">
+        </div>
+
+        <h4>Quorum of the Twelve Apostles</h4>
+        <div id="apostles" class="class">
+            <img src="images/holland.webp" alt="A picture of President Holland">
+            <img src="images/uchtdorf.webp" alt="A picture of Elder Uchtdorf">
+            <img src="images/bednar.webp" alt="A picture of Elder Bednar">
+            <img src="images/cook.webp" alt="A picture of Elder Cook">
+            <img src="images/anderson.webp" alt="A picture of Elder Anderson">
+            <img src="images/rasband.webp" alt="A picture of Elder Rasband">
+            <img src="images/stevenson.webp" alt="A picture of Elder Stevenson">
+            <img src="images/renlund.webp" alt="A picture of Elder Renlund">
+            <img src="images/gong.webp" alt="A picture of Elder Gong">
+            <img src="images/soares.webp" alt="A picture of Elder Soares">
+            <img src="images/kearon.webp" alt="A picture of Elder Kearon">
+            <img src="images/causse.webp" alt="A picture of Elder Causse">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* Add your CSS here to style your valentines day page */
+
+body {
+    background-color: hotpink;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+
+}
+
+nav ul li {
+
+}
+
+main {
+
+}
+
+main img {
+    width: 400px;
+    border: 20px solid lightpink;
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+}
+
+main section {
+
+}
+
+footer {
+    font-family: Serif, serif;
+}
