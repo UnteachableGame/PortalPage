@@ -17,7 +17,6 @@ header {
     display: grid;
     background-color: #1A4B9F;
     grid-template-columns: 1.5fr 0.2fr 5fr 2fr;
-    /*border: 1px solid red;*/
 }
 
 header a {
@@ -25,7 +24,6 @@ header a {
     justify-content: center;
     align-items: center;
     margin: 10px 20px;
-    /*border: 1px solid cyan;*/
 }
 
 header a img {
@@ -37,7 +35,6 @@ header a img {
 nav {
     display: grid;
     grid-column: 3/4;
-    /*border: 1px solid orange;*/
 }
 
 nav ul {
@@ -49,14 +46,12 @@ nav ul {
     list-style: none;
     width: 100%;
     margin: 15px 30px 15px;
-    /*border: 1px solid green;*/
 }
 
 nav ul li a {
     display: flex;
     padding: 5px;
     color: white;
-    /*background-color: grey;*/
     text-decoration: none;
     font-family: "Maximum Voltage", serif;
     font-size: 20px;
@@ -66,9 +61,31 @@ nav ul li a:hover {
     font-size: 25px;
 }
 
-main {
-    /*display: grid;*/
-    /*grid-template-rows: 1.5fr 1fr 1fr;*/
+#main-project {
+    margin: 10px;
+    padding: 0;
+}
+
+#main-project h1, h2 {
+    font-family: "Maximum Voltage", serif;
+    justify-content: center;
+    text-align: center;
+    color: #62C8A2;
+    margin: 10px;
+    padding: 0;
+}
+
+#main-project p, li {
+    font-family: "Power Calm", serif;
+    justify-content: center;
+    text-align: left;
+    color: #1A4B9F;
+    margin: 0;
+    padding: 0;
+}
+
+#main-project li {
+    color: black;
 }
 
 #hero-box {
@@ -78,7 +95,6 @@ main {
     width: 100%;
     height: 600px;
     position: relative;
-    border: 2px solid green;
     overflow: hidden;
 }
 
@@ -95,7 +111,7 @@ main {
     height: 350px;
     position: absolute;
     display: grid;
-    grid-template: 3fr 2fr 1fr / 1fr;
+    grid-template: 3fr 2fr 1fr / 1fr 1fr;
     justify-content: space-around;
     z-index: 1;
 }
@@ -113,21 +129,18 @@ main {
     padding-right: 150px;
     font-weight: bold;
     font-size: 30px;
-    /*border: 1px solid blue;*/
 }
 
 #hero-content p {
     grid-row: 2/3;
     float: left;
     align-items: unset;
-    /*border: 1px solid purple;*/
 }
 
 #hero-content h3 {
     grid-row: 3/4;
     justify-self: left;
     padding-left: 20px;
-    /*border: 1px solid pink;*/
 }
 
 #hero-content h3 a {
@@ -143,9 +156,8 @@ main {
     display: flex;
     flex-flow: nowrap row;
     justify-content: space-evenly;
-    align-items: center;
+    /*align-items: center;*/
     margin: 30px;
-    border: 2px solid red;
 }
 
 .c-box {
@@ -153,21 +165,10 @@ main {
     color: #ffffff;
     height: 340px;
     width: 286px;
-    justify-self: center;
-    align-content: center;
-    border: 1px solid pink;
 }
 
-.c-box1 {
-    border: 1px solid red;
-}
-
-.c-box2 {
-    border: 1px solid green;
-}
-
-.c-box3 {
-    border: 1px solid blue;
+#c1 {
+    align-self: center;
 }
 
 #newsletter {
